@@ -1,8 +1,20 @@
 aid: sware-fka-btr
 name: Sware (fka BTR)
-description: 'Sware (fka BTR) is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Sware (formerly BTR) is a life sciences software company providing AI-driven
+  GxP validation for regulated life sciences and pharmaceutical organizations.
+  Its Res_Q SaaS platform combines a decade of validation intelligence with a
+  Data Cloud and AI agents that automate validation work, surface insights, and
+  keep every decision explainable, traceable, and reversible. A companion
+  product, GxPNext, delivers agentic validation built for software development so
+  teams can embed GxP validation directly into their applications, ship faster,
+  and simplify customer audits. Sware serves quality, regulatory, and
+  engineering leaders across software validation, AI/ML validation, plant and
+  equipment validation, and medical device / SaMD development, and publishes
+  SOC 2 and ISO 9001 certifications. It is backed by Insight Partners. No public
+  API, developer portal, or OpenAPI is available today (the Res_Q API page is
+  password-gated), so this profile captures the company's public identity,
+  compliance posture, and domain-security probe.
 url: https://raw.githubusercontent.com/api-evangelist/sware-fka-btr/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +22,32 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://www.sware.com/hubfs/Website/_Global%20Assets/Featured%20Images/SWR_Homepage_Feat-IMG_1500x750.png
 tags:
 - Company
 - Healthcare
+- Life Sciences
+- Validation
+- GxP
+- Compliance
+- Quality Assurance
+- Regulatory
+- Pharmaceutical
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +55,21 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/sware-fka-btr-domain-security.yml
 - type: Website
   url: https://www.sware.com/
+- type: Blog
+  url: https://www.sware.com/blog
+- type: Support
+  url: https://www.sware.com/contact
+- type: Compliance
+  name: SOC 2 and ISO 9001 certifications
+  url: https://www.sware.com/
+- type: Conformance
+  url: conformance/sware-fka-btr-conformance.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1

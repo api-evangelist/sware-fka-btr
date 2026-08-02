@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.sware.com/
+notes: >-
+  Sware has no public API or OpenAPI in the catalog, so cross-cutting API
+  standards (oauth2, rfc9457, pagination, idempotency) cannot be derived.
+  The company publishes two compliance certifications in its website footer.
+standards:
+  - id: soc2
+    name: SOC 2
+    conforms: true
+    evidence: SOC 2 certification badge published in the sware.com site footer
+  - id: iso9001
+    name: ISO 9001
+    conforms: true
+    evidence: ISO 9001 certification badge published in the sware.com site footer

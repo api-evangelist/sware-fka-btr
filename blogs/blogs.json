@@ -1,0 +1,21 @@
+{
+  "repo": "sware-fka-btr",
+  "feeds": [
+    {
+      "source": "https://www.sware.com/atom.xml",
+      "feed_url": "https://www.sware.com/atom.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://www.sware.com/",
+      "feed_url": "https://www.sware.com/atom.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 10,
+  "fetched": "2026-08-01T15:49:00Z"
+}

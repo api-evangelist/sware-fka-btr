@@ -1,0 +1,31 @@
+# Front Door AI Index — sware-fka-btr — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: sware-fka-btr
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.sware.com
+  final_host: www.sware.com
+  ownership: own
+  owner: sware-fka-btr
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 23
+  host_score: 23
+  density: 22.46
+  words: 1024
+  tiers:
+    agentic: 6
+    core: 17
+    model: 0
+  ambiguous: 5
+  top_terms:
+    AI: 15
+    agentic: 4
+    AI agent: 2
+    ML: 2
+    agent: 2
+    intelligence: 2
+    automation: 1
